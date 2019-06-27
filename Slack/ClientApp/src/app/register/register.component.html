@@ -1,0 +1,21 @@
+<div>
+  <div *ngIf="success">
+    <h2>Vous êtes bien enregistrer</h2>
+  </div>
+  <div *ngIf="!success">
+    {{error}}
+  </div>
+
+  <form [formGroup]="form" (ngSubmit)="Submit()">
+    <div>
+      <input formControlName="username" placeholder="Username"/>
+    </div>
+    <div>
+      <input formControlName="email" placeholder="Mail"/>
+    </div>
+    <div>
+      <input type="password" formControlName="password" placeholder="Password"/>
+    </div>
+    <button type="submit">S'enregistrer</button>
+  </form>
+</div>

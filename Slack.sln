@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Slack", "Slack\Slack.csproj", "{CC33E168-D158-4807-A64C-815D15F63E49}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "WebSocket", "WebSocket\WebSocket.njsproj", "{18FEA705-C227-409A-8C4A-222C4B4FCF10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC33E168-D158-4807-A64C-815D15F63E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC33E168-D158-4807-A64C-815D15F63E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC33E168-D158-4807-A64C-815D15F63E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC33E168-D158-4807-A64C-815D15F63E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FEA705-C227-409A-8C4A-222C4B4FCF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FEA705-C227-409A-8C4A-222C4B4FCF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FEA705-C227-409A-8C4A-222C4B4FCF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FEA705-C227-409A-8C4A-222C4B4FCF10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A269C2DE-3D78-4143-9CA2-C66B72B1A1AF}
+	EndGlobalSection
+EndGlobal

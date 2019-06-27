@@ -1,0 +1,11 @@
+<div>
+  <form [formGroup]="form" (ngSubmit)="Submit()">
+    <div>
+      <input formControlName="username" placeholder="Username"/>
+    </div>
+    <div>
+      <input formControlName="password" placeholder="password" type="password"/>
+    </div>
+    <button type="submit">Se connecter</button>
+  </form>
+</div>
