@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using Slack.Tools.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace Slack.Model
         private int idUser;
 
         public int Id { get => id; set => id = value; }
+        [Required]
         public string Content { get => content; set => content = value; }
         public DateTime Date { get => date; set => date = value; }
         public int IdUser { get => idUser; set => idUser = value; }

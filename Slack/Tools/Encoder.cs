@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Slack.Tools
 {
-    public class Encoder
+    public abstract class Encoder
     {
         public static string GenerateSHA512String(string input)
         {
